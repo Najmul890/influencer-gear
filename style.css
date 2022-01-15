@@ -1,0 +1,157 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* common css  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #F3F1FF;
+    padding:0 80px;
+}
+section{
+    padding: 40px 0 80px 0 ;
+}
+h2{
+    font-size: 52px;
+    
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 26px;
+}
+p{
+    font-size: 16px;
+}
+.high-weight-text{
+    font-weight: 600;
+}
+button{
+    color: #fff;
+    background-color: #E02C6D;
+    border: none;
+    outline: none;
+    padding: 10px 24px;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+button:hover{
+   background-color: transparent;
+   color: #E02C6D;
+   border: 1px solid #E02C6D;
+   font-weight: bold;
+}
+button > i{
+    margin-left: 6px;
+} 
+.next-btn{
+    
+        float: right;
+        margin-right: 30px;
+        cursor: pointer;
+        color: rgba(224, 44, 109, 0.87);
+        
+    
+}
+
+
+
+/* style header section */
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.header-container h3{
+   margin-bottom: 100px;
+}
+.header-info p{
+    margin-right: 30px;
+}
+.header-info button{
+    border-radius: 41px;
+    margin-top: 16px;
+}
+
+
+.header img{
+    width: 440px;
+    height: 414px;
+    margin-left: 50px;
+}
+
+
+/*style collection section  */
+
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding: 50px 0 5px 0;
+    
+}
+.item{
+    padding: 25px ;
+    
+    
+}
+.item-container{
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.item img{
+    width: 300px;
+    height: 256px;
+}
+.item-info i{
+    color: #FB8200;
+
+}
+.item-info span{
+    margin-left: 10px;
+}
+
+
+
+/* style clients section */
+.clients-container h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.clients{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.client{
+    padding: 30px;
+}
+.client-container{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px 60px;
+}
+.client-info{
+    display: flex;
+    
+}
+.client-info p{
+    margin-left: 20px;
+}
+.client img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* style footer section */
+footer{
+    padding: 50px 100px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+footer span{
+    margin-right: 10px;
+    cursor: pointer;
+}
